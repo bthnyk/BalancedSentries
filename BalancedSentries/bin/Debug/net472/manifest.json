@@ -1,0 +1,10 @@
+﻿{
+    "name":  "BalancedSentries",
+    "version_number":  "1.0.0",
+    "description":  "Adds a 1-6 player version for each ship.",
+    "website_url":  "https://github.com/bthnyk/BalancedSentries",
+    "dependencies":  [
+                         "BepInEx-BepInExPack-5.4.2100",
+                         "NihilityShift-VoidManager-1.2.8"
+                     ]
+}
