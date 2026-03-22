@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/-bthnyk-111111?style=just-the-label&logo=github&labelColor=24292f)](https://github.com/bthnyk)
-![](https://img.shields.io/badge/Game%20Version-v0.28.x-111111?style=flat&labelColor=24292f&color=111111)
+![](https://img.shields.io/badge/Game%20Version-1.2.0-111111?style=flat&labelColor=24292f&color=111111)
 [![](https://img.shields.io/discord/1180651062550593536.svg?&logo=discord&logoColor=ffffff&style=flat&label=Discord&labelColor=24292f&color=111111)](https://discord.gg/g2u5wpbMGu "Void Crew Modding Discord")
 
 # Balanced Sentries

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BalancedSentries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+75d7c7a880643e4b865b4ae3a1d80ca223036142")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+10b3e7354bcdc9398ae222e39dc043e5abd7c692")]
 [assembly: System.Reflection.AssemblyProductAttribute("BalancedSentries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Adds a 1-6 player version for each ship.")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
