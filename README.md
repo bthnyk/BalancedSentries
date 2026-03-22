@@ -31,7 +31,7 @@ Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 
 - Simply install. 
 - Use **F5** to access the **Balanced Sentries (Local/Host)** and **Balanced Sentries (Server)** menus.
-- **⚠️ IMPORTANT:** If the Host changes settings mid-game, you must unequip and re-equip Sentry Brain modules for changes to take effect visually.
+- **⚠️ IMPORTANT:** If the Host changes settings mid-game, you must unequip and re-equip Blessed Homunculus for changes to take effect visually.
 
 ### 👥 Multiplayer Functionality
 
