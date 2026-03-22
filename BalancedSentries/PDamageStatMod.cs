@@ -1,42 +1,30 @@
 using Gameplay.Utilities;
 using Gameplay.Tags;
+using CG.Game;
 
 namespace BalancedSentries
 {
     class PDamageStatMod : StatMod, IDescriptiveModifierSource
     {
-        // Fetches the dynamic damage multiplier based on player count
+        // We pass the dynamic damage multiplier directly to the base constructor.
+        // The mod will use the latest multiplier from Configs whenever the item is equipped.
         public PDamageStatMod(ModTagConfiguration tagConfig) : base(new FloatModifier(Configs.GetCurrentDamageMultiplier(), ModifierType.AdditiveMultiplier), StatType.Damage.Id, tagConfig)
         {
         }
 
         public string GetDescription()
         {
-            // Converting float multipliers (0.50) to UI percentages (+50% or -50%)
-            // and displaying them in a static table format.
-
-            float val1to2P = Configs.ActiveDamage1to2P * 100f;
-            float val3to4P = Configs.ActiveDamage3to4P * 100f;
-            float val5to6P = Configs.ActiveDamage5to6P * 100f;
-
-            // Simple check to determine the sign (+/-)
-            string sign1to2P = val1to2P >= 0 ? "+" : "";
-            string sign3to4P = val3to4P >= 0 ? "+" : "";
-            string sign5to6P = val5to6P >= 0 ? "+" : "";
-
-            // Displaying the table
-            string table = "";
-            table += $"<color=cyan>1-2 Players:</color> {sign1to2P}{val1to2P:F0}%\n";
-            table += $"<color=cyan>3-4 Players:</color> {sign3to4P}{val3to4P:F0}%\n";
-            table += $"<color=cyan>5-6 Players:</color> {sign5to6P}{val5to6P:F0}%";
-
-            return table;
+            // We return an empty string to prevent the UI from appending the "(Inactive)" tag.
+            // This ensures a clean and professional look in the item tooltip.
+            return ""; 
         }
 
         public string GetHeader()
         {
-            // Title for this section on the item description
-            return "Balanced Sentry (Damage Scal.)";
+            // We use the Header to provide visual confirmation since it's immune to "(Inactive)" tags.
+            // It also displays the current player count for clarity.
+            int playerCount = (ClientGame.Current?.Players != null) ? ClientGame.Current.Players.Count : 1;
+            return $"Dynamic Sentry Damage Active ({playerCount}P)";
         }
     }
 }

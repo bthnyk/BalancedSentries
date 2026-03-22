@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fazli\\Downloads\\BalancedDuoSentry-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj": {}
+    "C:\\Users\\fazli\\Downloads\\BalancedSentries-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fazli\\Downloads\\BalancedDuoSentry-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\fazli\\Downloads\\BalancedSentries-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fazli\\Downloads\\BalancedDuoSentry-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj",
+        "projectUniqueName": "C:\\Users\\fazli\\Downloads\\BalancedSentries-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj",
         "projectName": "BalancedSentries",
-        "projectPath": "C:\\Users\\fazli\\Downloads\\BalancedDuoSentry-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj",
+        "projectPath": "C:\\Users\\fazli\\Downloads\\BalancedSentries-main\\BalancedSentries-main\\BalancedSentries\\BalancedSentries.csproj",
         "packagesPath": "C:\\Users\\fazli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fazli\\Downloads\\BalancedDuoSentry-main\\BalancedSentries-main\\BalancedSentries\\obj\\",
+        "outputPath": "C:\\Users\\fazli\\Downloads\\BalancedSentries-main\\BalancedSentries-main\\BalancedSentries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fazli\\AppData\\Roaming\\NuGet\\NuGet.Config"

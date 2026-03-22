@@ -1,32 +1,30 @@
 using Gameplay.Utilities;
 using Gameplay.Tags;
+using CG.Game;
 
 namespace BalancedSentries
 {
     class PPowerWantedStatMod : StatMod, IDescriptiveModifierSource
     {
-        // Fetches the dynamic power requirement based on player count
+        // We pass the dynamic value directly to the base constructor.
+        // Since the class is re-instantiated when the item is equipped, 
+        // the latest config value will be applied automatically.
         public PPowerWantedStatMod(ModTagConfiguration tagConfig) : base(new IntModifier(Configs.GetCurrentPowerWanted(), ModifierType.PrimaryAddend), StatType.PowerWanted.Id, tagConfig)
         {
         }
 
         public string GetDescription()
         {
-            // Instead of just one value, we display a static table based on Configs.
-            // This clearly shows how power consumption changes with player count.
-            // We use different colors for a cleaner UI.
-            string table = "";
-            table += $"<color=cyan>1-2 Players:</color> {Configs.ActivePower1to2P}\n";
-            table += $"<color=cyan>3-4 Players:</color> {Configs.ActivePower3to4P}\n";
-            table += $"<color=cyan>5-6 Players:</color> {Configs.ActivePower5to6P}";
-
-            return table;
+            // We return an empty string to prevent the UI from appending "(Inactive)".
+            // This keeps the item tooltip clean and professional.
+            return ""; 
         }
 
         public string GetHeader()
         {
-            // Title for this section on the item description
-            return "Balanced Sentry (Power Consump.)"; 
+            // We provide visual confirmation here, as headers are immune to the "(Inactive)" tag.
+            int playerCount = (ClientGame.Current?.Players != null) ? ClientGame.Current.Players.Count : 1;
+            return $"Dynamic Sentry Scaling Active ({playerCount}P)"; 
         }
     }
 }

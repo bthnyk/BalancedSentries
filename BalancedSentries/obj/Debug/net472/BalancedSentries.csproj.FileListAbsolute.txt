@@ -5,3 +5,11 @@ C:\Users\fazli\Downloads\BalancedDuoSentry-main\BalancedSentries-main\BalancedSe
 C:\Users\fazli\Downloads\BalancedDuoSentry-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.AssemblyInfo.cs
 C:\Users\fazli\Downloads\BalancedDuoSentry-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.csproj.CoreCompileInputs.cache
 C:\Users\fazli\Downloads\BalancedDuoSentry-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.dll
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\bin\Debug\net472\BalancedSentries.dll
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.csproj.AssemblyReference.cache
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.AssemblyInfoInputs.cache
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.AssemblyInfo.cs
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.csproj.CoreCompileInputs.cache
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.sourcelink.json
+C:\Users\fazli\Downloads\BalancedSentries-main\BalancedSentries-main\BalancedSentries\obj\Debug\net472\BalancedSentries.dll

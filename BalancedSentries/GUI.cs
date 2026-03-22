@@ -14,7 +14,7 @@ namespace BalancedSentries
         {
             // CRITICAL UX WARNING: Re-equip note
             GUILayout.Label("<color=#ff4d4d><b>⚠️ IMPORTANT NOTE:</b></color>");
-            GUILayout.Label("<color=yellow>If you change these settings during a match, you MUST unequip and re-equip the sentry brain parts for the visual and actual stat changes to take effect!</color>");
+            GUILayout.Label("<color=yellow>If you change these settings during a match, you MUST unequip and re-equip the Homunculus for the visual and actual stat changes to take effect!</color>");
             GUILayout.Space(15);
 
             GUILayout.Label("<color=yellow>--- Local Settings ---</color>");
@@ -113,7 +113,7 @@ namespace BalancedSentries
         {
             // CRITICAL UX WARNING: Re-equip note
             GUILayout.Label("<color=#ff4d4d><b>⚠️ IMPORTANT NOTE:</b></color>");
-            GUILayout.Label("<color=yellow>If the host changes these settings during a match, you MUST unequip and re-equip the sentry brain parts for the visual and actual stat changes to take effect!</color>");
+            GUILayout.Label("<color=yellow>If the host changes these settings during a match, you MUST unequip and re-equip the Homunculus for the visual and actual stat changes to take effect!</color>");
             GUILayout.Space(15);
 
             GUILayout.Label("<color=cyan>--- Current Server Settings ---</color>");

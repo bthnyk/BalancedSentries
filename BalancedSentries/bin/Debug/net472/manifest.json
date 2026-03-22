@@ -1,6 +1,6 @@
 ﻿{
     "name":  "BalancedSentries",
-    "version_number":  "1.0.0",
+    "version_number":  "1.0.1",
     "description":  "Adds a 1-6 player version for each ship.",
     "website_url":  "https://github.com/bthnyk/BalancedSentries",
     "dependencies":  [
