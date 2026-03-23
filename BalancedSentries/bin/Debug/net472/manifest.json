@@ -1,7 +1,7 @@
 ﻿{
     "name":  "BalancedSentries",
-    "version_number":  "1.0.1",
-    "description":  "Adds a 1-6 player version for each ship.",
+    "version_number":  "1.1.0",
+    "description":  "Automatically adjusts B.R.A.I.N. Turret damage and power consumption based on the number of players in the lobby.",
     "website_url":  "https://github.com/bthnyk/BalancedSentries",
     "dependencies":  [
                          "BepInEx-BepInExPack-5.4.2100",

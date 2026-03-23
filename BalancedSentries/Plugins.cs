@@ -30,7 +30,8 @@ namespace BalancedSentries
 
     public class VoidManagerPlugin : VoidPlugin
     {
-        public override MultiplayerType MPType => MultiplayerType.Session;
+        // Forced to 'All' to ensure UI synchronization and StatMod consistency across all crew members.
+        public override MultiplayerType MPType => MultiplayerType.All;
 
         public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 

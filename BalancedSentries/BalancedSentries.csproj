@@ -4,7 +4,7 @@
     <AssemblyName>BalancedSentries</AssemblyName>
     <Description>
     </Description>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
@@ -13,7 +13,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>BalancedSentries</RootNamespace>
-    <AssemblyTitle>Adds a 1-6 player version for each ship.</AssemblyTitle>
+    <AssemblyTitle>Automatically adjusts B.R.A.I.N. Turret damage and power consumption based on the number of players in the lobby.</AssemblyTitle>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>embedded</DebugType>

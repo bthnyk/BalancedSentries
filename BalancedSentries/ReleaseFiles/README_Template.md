@@ -14,16 +14,16 @@ Requires: [Dependencies]
 
 ### 💡 Function(s)
 
-- **Dynamic Scaling:** Automatically adjusts Sentry Turret damage and power consumption based on the number of players in the lobby.
+- **Dynamic Scaling:** Automatically adjusts B.R.A.I.N. Turret damage and power consumption based on the number of players in the lobby.
 - **Configurable Balance:** Use the F5 Menu (Void Manager) to tweak multipliers for different crew sizes.
 - **Host Sync:** The Host controls the balance for the entire session, ensuring a consistent experience for all crew members.
 
 **Default Dynamic Scaling Table:**
 
-| Effect | 1-2 Players | 3-4 Players | 5-6 Players |
-| ------ | :---------: | :---------: | :---------: |
-| **B.R.A.I.N. Damage** | +100% (1.0) | +75% (0.75) | +50% (0.50) |
-| **B.R.A.I.N. Power Usage** | -2 | -1 | 0 |
+| Effect | 1-2 Players | 3-4 Players | 5-6 Players | 7-X Players |
+| ------ | :---------: | :---------: | :---------: | :---------: |
+| **B.R.A.I.N. Damage** | +100% (1.0) | +75% (0.75) | +50% (0.50) | +25% (0.25) |
+| **B.R.A.I.N. Power Usage** | -2 | -1 | 0 | +1 |
 
 *Note: Damage and Power values are fully customizable via the Host Settings menu.*
 

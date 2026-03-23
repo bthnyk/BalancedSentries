@@ -37,16 +37,27 @@ namespace BalancedSentries
             }
         }
 
-        // We set this to true consistently to bypass the game's "(Inactive)" tag logic.
-        public override bool ShouldApply() => true;
+        public override bool ShouldApply()
+        {
+            // Condition is only 'Met' when there is a crew of 2 or more.
+            // This allows Solo players to keep the original game's Blessed Homunculus logic.
+            return ClientGame.Current.Players.Count >= 2;
+        }
 
         public override string Description()
         {
-            // We check for null to prevent errors in the ship selection menu
+            // Check for null to prevent errors in the ship selection menu
             int playerCount = (ClientGame.Current?.Players != null) ? ClientGame.Current.Players.Count : 1;
             
-            // Returns the active scaling status without extra tags if possible.
-            return $"Condition: <color=#FFD700>Dynamic Player Scaling</color> [{playerCount}P]";
+            // Visual feedback for Solo vs Multi
+            if (playerCount <= 1)
+            {
+                // Indicates that the mod is intentionally idle to allow original game buffs
+                return "Condition: <color=#FFD700>Dynamic Scaling</color> [<color=#ff4d4d>Idle - Solo Mode</color>]";
+            }
+            
+            // High-tech look for active scaling
+            return $"Condition: <color=#FFD700>Dynamic Player Scaling</color> [<color=cyan>{playerCount} Players Active</color>]";
         }
     }
 }
